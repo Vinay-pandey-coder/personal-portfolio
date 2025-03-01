@@ -4,3 +4,13 @@ let typed = new Typed(".typing",{
     backSpeed:60,
     loop:true
 })
+
+//  loder
+
+var loader = document.getElementById("pre-loader");
+
+window.addEventListener("load", function(){
+     setTimeout(function(){
+        loader.style.display = "none";
+     }, 1500);
+})
